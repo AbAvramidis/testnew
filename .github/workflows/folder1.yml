@@ -16,4 +16,6 @@ jobs:
       uses: actions/checkout@v2
     - name: Step02
       working-directory: ./folder1
-      run: ls -la
+      run: |
+        ls -la 
+        cat test.txt
