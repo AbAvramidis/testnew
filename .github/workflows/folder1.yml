@@ -14,6 +14,6 @@ jobs:
     steps:
     - name: Step01
       uses: actions/checkout@v2
-      working-directory: ./folder1
     - name: Step02
+      working-directory: ./folder1
       run: ls -la
