@@ -1,0 +1,19 @@
+name: Test00
+on:
+  push:
+    paths:
+    - 'folder2/**'
+  pull_request:
+    paths: 
+    - 'folder2/**'
+
+jobs: 
+  build:
+    name: Test00
+    runs-on: ubuntu-latest
+    steps:
+    - name: Step01
+      uses: actions/checkout@v2
+      working-directory: ./folder2
+    - name: Step02
+      run: ls -la
