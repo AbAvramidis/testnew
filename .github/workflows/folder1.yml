@@ -17,5 +17,4 @@ jobs:
     - name: Step02
       working-directory: ./folder1
       run: |
-        ls -la 
-        cat test.txt
+        ls -la
