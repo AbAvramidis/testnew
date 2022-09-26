@@ -1,3 +1,7 @@
+name: Test00
+on:
+  push:
+
 jobs: 
   build:
     name: Test00
