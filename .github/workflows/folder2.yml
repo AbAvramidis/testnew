@@ -18,4 +18,4 @@ jobs:
       working-directory: ./folder2
       run: |
         ls -la
-        cat test
+        cat test.txt
